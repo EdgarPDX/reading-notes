@@ -7,7 +7,14 @@ Destructuring
 Spread
     - A way to inject values of an array into arguments or other arrays
 Rest
-    - Place holder for arguments in a function.
+    - Place holder for parameters in a function. Seems like it would be in the case that you wouldn't know how many parameters could be inputted? might need a better explanation on this. 
 Videos
 TDD, Where Did It All Go Wrong
+    - Write tests for requirements not implementation details. 
+     - red green refactor
+        - red write code that fails
+        - green make test that work quickly
+        - refactor remove duplication
+    - test behaviors not implementation details. refactoring should not change the test.
 what the heck is the event loop anyway
+    - event loops is the process of calling the code in the task queue after the stack is complete. very complicated stuff here.. 
